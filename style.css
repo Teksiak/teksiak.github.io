@@ -100,7 +100,6 @@ button {
 }
 
 header img {
-    transform: scale(0.9);
     float: right;
     margin-top: -380px;
     margin-right: -65px;
@@ -134,14 +133,17 @@ header img {
 
 #content_2 {
     margin-top: 50px;
-    height: 460px;
+    height: auto;
     width: 100%;
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
     font-size: 12px;
     text-align: center;
     line-height: 30px;
+    padding: 10px;
 }
 
 .dcon2 img{
