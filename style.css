@@ -138,9 +138,8 @@ header img {
     width: 100%;
     background-color: black;
     display: flex;
-    justify-content: center;
-    gap: 70px;
-    font-size: 15px;
+    justify-content: space-between;
+    font-size: 12px;
     text-align: center;
     line-height: 30px;
 }
